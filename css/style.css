@@ -1,0 +1,19 @@
+
+body{
+    font-family: sans-serif;
+    
+
+}
+.accent{
+    color: blue;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF
+}
+
+.logo{
+    color: #2E2F42;
+}
