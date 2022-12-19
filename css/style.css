@@ -1,19 +1,159 @@
-
+:root{
+    --brand-color: #4D5AE5;
+    --text-color: #434455;
+    --accent-color: #FFFFFF;
+    --logo-color: #2E2F42;
+    --btn-color:#404BBF;
+    --secondary-text:#E7E9FC;
+    --btn-secondary-clr: #F4F4FD;
+}   
+/* body */
 body{
-    font-family: sans-serif;
-    
+    color: var(--text-color);
 
+    
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    background-color: var(--accent-color);
+    color: var(--text-color);
 }
+
+.link{
+    color: var(--logo-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;   
+}
+
+.link:hover,
+.link:focus {
+    color: var(--text-color);
+}
+
+.link:active{
+    color: var(--brand-color);
+}
+
+.link-auth{
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+.link-auth:hover,
+.link-auth:focus{
+    color: var(--brand-color);
+}
+
 .accent{
-    color: blue;
+    color: var(--brand-color);
 }
 
 .button{
     cursor: pointer;
-    background-color: #4D5AE5;
-    color: #FFFFFF
+    background-color: var(--brand-color);
+    color: var(--accent-color);
+    
+}
+.button:focus,
+.button:focus{
+    color: var(--accent-color);
+}
+.button:active{
+    background-color: var(--btn-color);
+    color: var(--accent-color);
 }
 
 .logo{
-    color: #2E2F42;
+    color: var(--logo-color);
+    font-family: Raleway, sans-serif;
+    
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+.logo-accent{
+    color: #F4F4FD;
+}
+
+.list{
+    list-style: none;
+}
+/* hero */
+.hero.title{
+    background-color: #4D5AE5;
+    color: var(--accent-color);
+
+    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.title {
+    color: var(--logo-color);
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;  
+    text-align: center;
+    text-transform: capitalize;
+}
+/* main */
+
+.second-title{
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    color: var(--logo-color);
+}
+
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--text-color);
+}
+/* footer */
+.footer{
+    background-color: var(--logo-color);
+}
+.footer .text{
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--secondary-text);
+
+}
+/* prtfolio.html */
+
+.btn-portfolio{
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+background-color: var(--btn-secondary-clr) ;
+color: var(--brand-color);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+    background-color: var(--btn-color);
+    color: var(--accent-color);
+}
+
