@@ -23,6 +23,10 @@ body{
 }
 
 .link{
+    text-decoration: none;
+}
+
+.link.link-nav{
     color: var(--logo-color);
 
     font-weight: 500;
@@ -30,12 +34,12 @@ body{
     line-height: 1.5;   
 }
 
-.link:hover,
-.link:focus {
+.link-nav:hover,
+.link-nav:focus {
     color: var(--text-color);
 }
 
-.link:active{
+.link-nav:active{
     color: var(--brand-color);
 }
 
@@ -44,6 +48,7 @@ body{
 
     font-size: 16px;
     line-height: 1.5;
+    
 }
 .link-auth:hover,
 .link-auth:focus{
@@ -79,6 +84,7 @@ body{
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .logo-accent{
     color: #F4F4FD;
@@ -86,10 +92,15 @@ body{
 
 .list{
     list-style: none;
+    
+    
 }
 /* hero */
+.hero{
+    background-color:var(--logo-color);
+}
 .hero.title{
-    background-color: #4D5AE5;
+    
     color: var(--accent-color);
 
     
